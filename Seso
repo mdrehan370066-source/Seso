@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shopping Website</title>
+
+<style>
+body{
+font-family: Arial;
+background:#f2f2f2;
+text-align:center;
+margin:0;
+}
+
+h1{
+background:#ff6600;
+color:white;
+padding:15px;
+margin:0;
+}
+
+.product{
+background:white;
+width:250px;
+display:inline-block;
+margin:15px;
+padding:15px;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+}
+
+img{
+width:200px;
+height:200px;
+}
+
+button{
+background:#ff6600;
+color:white;
+border:none;
+padding:10px 15px;
+border-radius:5px;
+cursor:pointer;
+font-size:16px;
+}
+
+button:hover{
+background:#e65c00;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>🛒 Shopping Website</h1>
+
+<div class="product">
+<img src="https://via.placeholder.com/200">
+<h3>T-Shirt</h3>
+<p>Price: ₹499</p>
+<button>Buy Now</button>
+</div>
+
+<div class="product">
+<img src="https://via.placeholder.com/200">
+<h3>Shoes</h3>
+<p>Price: ₹999</p>
+<button>Buy Now</button>
+</div>
+
+<div class="product">
+<img src="https://via.placeholder.com/200">
+<h3>Watch</h3>
+<p>Price: ₹799</p>
+<button>Buy Now</button>
+</div>
+
+</body>
+</html>
